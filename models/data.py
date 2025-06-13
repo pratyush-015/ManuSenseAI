@@ -61,7 +61,7 @@ def add_rolling_slope(data):
 
     slope_cols = [col for col in data.columns if 'lowess_slope' in col]
     data[slope_cols] = standard_scaler.fit_transform(data[slope_cols])
-
+    # test
     return data
 
 print("processing data ...")

@@ -92,7 +92,7 @@ class PredictiveMaintenanceDashboard:
             # self.health_data.append(new_health)
             sensor_6_val = self.data.iloc[self.sensor_6_iterator, 6]
             self.sensor_6_data.append(sensor_6_val)
-
+            # test
             # --prediction logic--
             input_features = self.data.loc[self.sensor_6_iterator, self.feature_cols].values.reshape(1, -1)
             input_df = pd.DataFrame(input_features, columns=self.feature_cols)
