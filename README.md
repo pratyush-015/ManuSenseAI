@@ -77,5 +77,4 @@
 ```bash
 git clone https://github.com/yourusername/ManuSenseAI.git
 cd ManuSenseAI
-pip install -r requirements.txt
 python main.py
